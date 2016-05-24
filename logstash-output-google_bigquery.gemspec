@@ -21,7 +21,8 @@ Gem::Specification.new do |s|
 
   # Gem dependencies
   s.add_runtime_dependency "logstash-core-plugin-api", "~> 1.0"
-  s.add_runtime_dependency 'google-api-client'
+  s.add_runtime_dependency 'mime-types', '~> 2.0'
+  s.add_runtime_dependency 'google-api-client', '0.9.4'
 
   s.add_development_dependency 'logstash-devutils'
 end
